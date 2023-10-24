@@ -1,4 +1,4 @@
-import './globals.css'
+import './globals.css';
 
 export const metadata = {
   title: 'Fetching movies',
@@ -8,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-slate-950 p-6">{children}</body>
+      <body className="bg-slate-950 p-6 h-screen w-screen">{children}</body>
     </html>
   )
 }
