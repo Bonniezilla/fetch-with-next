@@ -7,7 +7,7 @@ export default function Movies() {
         <div className="flex flex-col items-center">
             <h1 className="font-bold text-white text-3xl m-6">Filmes carregados</h1>
             <Suspense fallback={<Loading />}>
-                <MoviesList delay={0} shouldError={false} />
+                <MoviesList delay={3000} shouldError={false} />
             </Suspense>
         </div>
     )

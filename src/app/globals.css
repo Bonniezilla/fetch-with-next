@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.loading-movies {
+    height: 800px;
+    width: 800px;
+    @apply flex flex-col gap-4 bg-slate-700 rounded-lg items-center justify-center font-bold
+    text-3xl p-4 animate-pulse;
+}
